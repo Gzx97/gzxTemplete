@@ -1,0 +1,94 @@
+@import '~antd/es/style/variable.less';
+@import './common.less';
+html,
+body,
+#root {
+  height: 100%;
+  color: @whiteTextColor;
+  background-color: @antlayoutBg;
+}
+
+.colorWeak {
+  filter: invert(80%);
+}
+
+.ant-layout {
+  min-height: 100vh;
+  background-color: @antlayoutBg;
+}
+.ant-pro-sider.ant-layout-sider.ant-pro-sider-fixed {
+  left: unset;
+}
+.ant-pro-sider {
+  background-color: @antProSiderBg;
+}
+canvas {
+  display: block;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+@media (max-width: @screen-xs) {
+  .ant-table {
+    width: 100%;
+    overflow-x: auto;
+    &-thead > tr,
+    &-tbody > tr {
+      > th,
+      > td {
+        white-space: pre;
+        > span {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+// Compatible with IE11
+@media screen and(-ms-high-contrast: active), (-ms-high-contrast: none) {
+  body .ant-design-pro > .ant-layout {
+    min-height: 100vh;
+  }
+}
+// 去掉左下角点缩放按钮
+.ant-pro-sider-links {
+  display: none;
+  // visibility: hidden;
+}
+.ant-menu-dark.ant-menu-inline .ant-menu-item,
+.ant-menu-dark.ant-menu-inline .ant-menu-submenu-title {
+  padding: 20px;
+}
+.ant-tabs-top > .ant-tabs-nav::before,
+.ant-tabs-top > div > .ant-tabs-nav::before {
+  border-bottom: 1px solid rgba(90, 89, 89, 1);
+}
+.ant-tabs {
+  color: #fff;
+}
+
+// 用户部分公共样式
+.user_input {
+  width: 420px;
+  height: 55px;
+  color: #fff;
+  background: #212629;
+  border: 1px solid transparent;
+  border-radius: 6px;
+}
+.user_btn {
+  width: 420px;
+  height: 50px;
+  background: #80c795;
+  border-radius: 25px;
+}
