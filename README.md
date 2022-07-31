@@ -1,7 +1,6 @@
-# 碳交易平台
+# antdPro阉割版
 
-这个项目使用 [AntdPro](https://beta-pro.ant.design/) 自己阉割了一些功能
-[仓库地址](https://gitee.com/carbon_1/carbon-taro-v2)
+这个项目使用 [AntdPro](https://beta-pro.ant.design/) 为了省力自己阉割了一些功能，如果搭建大型应用直接去用antdpro就好了
 
 ## 快速开始
 
@@ -21,10 +20,6 @@ $ npm run build
 
 ## 相关资源一览
 
-- [相关功能文档地址](https://docs.qq.com/sheet/DY1lwRnhsak5jS3Vh?tab=BB08J2)
-- [接口文档地址](http://xiaoyaoji.cn/project/1qEZhgqS3RB/1qEZlUp4imW)
-- [设计稿-移动端](https://lanhuapp.com/web/#/item/project/stage?pid=094059a7-21c1-449c-a68b-175c8798b83d&type=share_mark&teamId=591702ba-f86a-4166-b9a6-113fe7cc1a0b)
-- [设计稿-pc 端](https://lanhuapp.com/web/#/item/project/stage?pid=d6290078-29c0-481c-81a5-8fa5b407b11c&type=share_mark&teamId=591702ba-f86a-4166-b9a6-113fe7cc1a0b)
 
 ## 约定
 
@@ -48,8 +43,6 @@ feat/版本/功能名（或任务 ID）
 
 ```
 feat/gzx/xxx
-feat/zkd/xxx
-feat/yxb/xxx
 ```
 
 #### 修复 bug
@@ -68,21 +61,6 @@ fix/xxx
 git checkout -B feat/xxx
 ```
 
-#### H5 git 仓库地址:
-
-```
-ssh://www@47.52.21.155/data/git/tanpaifang-front.git
-```
-
-<!-- [预览地址：](http://47.52.21.155:8141) -->
-
-#### WEB git 仓库地址:
-
-```
-ssh://www@47.52.21.155/data/git/tanpaifang-web.git
-```
-
-<!-- 预览地址：http://47.52.21.155:8142 -->
 
 ### 其他
 

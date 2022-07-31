@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const service = axios.create({
-  baseURL: 'https://www.bgquote.net/api', // api 的 base_url
+  baseURL: 'https://www.xxx.com/api', // api 的 base_url
   timeout: 50000, // 请求超时时间
 });
 
